@@ -27,7 +27,7 @@ public class TrainResource {
 	}
 	
 	@GET
-	@Path("numTrain-{numTrain}")
+	@Path("/{numTrain}")
 	public Response getTrainByNumTrain(@PathParam("numTrain") String numTrain) {
 		Train train = Train.getTrainByNumTrain(numTrain);
 		return Response

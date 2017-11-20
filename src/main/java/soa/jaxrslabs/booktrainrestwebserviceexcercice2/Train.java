@@ -3,9 +3,6 @@ package soa.jaxrslabs.booktrainrestwebserviceexcercice2;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Response.Status;
-
 public class Train {
 	
 	private String numTrain;
